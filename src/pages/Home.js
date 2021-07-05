@@ -30,7 +30,6 @@ const Home = () => {
           }
           return dispatch(setHistory(data));
         }}
-        debounce={10000}
         options={{
           types: ["(regions)"],
           componentRestrictions: { country: "my" },
