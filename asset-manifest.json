@@ -1,29 +1,29 @@
 {
   "files": {
-    "static/js/0.232c7082.chunk.js": "/react-assignment/static/js/0.232c7082.chunk.js",
-    "static/js/0.232c7082.chunk.js.map": "/react-assignment/static/js/0.232c7082.chunk.js.map",
-    "static/js/1.a8cba6c3.chunk.js": "/react-assignment/static/js/1.a8cba6c3.chunk.js",
-    "static/js/1.a8cba6c3.chunk.js.map": "/react-assignment/static/js/1.a8cba6c3.chunk.js.map",
-    "main.js": "/react-assignment/static/js/main.62dcf29f.chunk.js",
-    "main.js.map": "/react-assignment/static/js/main.62dcf29f.chunk.js.map",
-    "runtime-main.js": "/react-assignment/static/js/runtime-main.8a68cfcb.js",
-    "runtime-main.js.map": "/react-assignment/static/js/runtime-main.8a68cfcb.js.map",
-    "static/js/4.fed012fb.chunk.js": "/react-assignment/static/js/4.fed012fb.chunk.js",
-    "static/js/4.fed012fb.chunk.js.map": "/react-assignment/static/js/4.fed012fb.chunk.js.map",
-    "static/js/5.a1635ea2.chunk.js": "/react-assignment/static/js/5.a1635ea2.chunk.js",
-    "static/js/5.a1635ea2.chunk.js.map": "/react-assignment/static/js/5.a1635ea2.chunk.js.map",
-    "static/js/6.8251f3be.chunk.js": "/react-assignment/static/js/6.8251f3be.chunk.js",
-    "static/js/6.8251f3be.chunk.js.map": "/react-assignment/static/js/6.8251f3be.chunk.js.map",
-    "static/js/7.1d7dbef0.chunk.js": "/react-assignment/static/js/7.1d7dbef0.chunk.js",
-    "static/js/7.1d7dbef0.chunk.js.map": "/react-assignment/static/js/7.1d7dbef0.chunk.js.map",
+    "static/js/0.06be8f5a.chunk.js": "/react-assignment/static/js/0.06be8f5a.chunk.js",
+    "static/js/0.06be8f5a.chunk.js.map": "/react-assignment/static/js/0.06be8f5a.chunk.js.map",
+    "static/js/1.4c9d4924.chunk.js": "/react-assignment/static/js/1.4c9d4924.chunk.js",
+    "static/js/1.4c9d4924.chunk.js.map": "/react-assignment/static/js/1.4c9d4924.chunk.js.map",
+    "main.js": "/react-assignment/static/js/main.e51500b8.chunk.js",
+    "main.js.map": "/react-assignment/static/js/main.e51500b8.chunk.js.map",
+    "runtime-main.js": "/react-assignment/static/js/runtime-main.ec3828e2.js",
+    "runtime-main.js.map": "/react-assignment/static/js/runtime-main.ec3828e2.js.map",
+    "static/js/4.18db27ce.chunk.js": "/react-assignment/static/js/4.18db27ce.chunk.js",
+    "static/js/4.18db27ce.chunk.js.map": "/react-assignment/static/js/4.18db27ce.chunk.js.map",
+    "static/js/5.4559849e.chunk.js": "/react-assignment/static/js/5.4559849e.chunk.js",
+    "static/js/5.4559849e.chunk.js.map": "/react-assignment/static/js/5.4559849e.chunk.js.map",
+    "static/js/6.a01d58e0.chunk.js": "/react-assignment/static/js/6.a01d58e0.chunk.js",
+    "static/js/6.a01d58e0.chunk.js.map": "/react-assignment/static/js/6.a01d58e0.chunk.js.map",
+    "static/js/7.0d24caca.chunk.js": "/react-assignment/static/js/7.0d24caca.chunk.js",
+    "static/js/7.0d24caca.chunk.js.map": "/react-assignment/static/js/7.0d24caca.chunk.js.map",
     "index.html": "/react-assignment/index.html",
-    "static/js/0.232c7082.chunk.js.LICENSE.txt": "/react-assignment/static/js/0.232c7082.chunk.js.LICENSE.txt",
-    "static/js/1.a8cba6c3.chunk.js.LICENSE.txt": "/react-assignment/static/js/1.a8cba6c3.chunk.js.LICENSE.txt",
-    "static/js/4.fed012fb.chunk.js.LICENSE.txt": "/react-assignment/static/js/4.fed012fb.chunk.js.LICENSE.txt"
+    "static/js/0.06be8f5a.chunk.js.LICENSE.txt": "/react-assignment/static/js/0.06be8f5a.chunk.js.LICENSE.txt",
+    "static/js/1.4c9d4924.chunk.js.LICENSE.txt": "/react-assignment/static/js/1.4c9d4924.chunk.js.LICENSE.txt",
+    "static/js/4.18db27ce.chunk.js.LICENSE.txt": "/react-assignment/static/js/4.18db27ce.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8a68cfcb.js",
-    "static/js/4.fed012fb.chunk.js",
-    "static/js/main.62dcf29f.chunk.js"
+    "static/js/runtime-main.ec3828e2.js",
+    "static/js/4.18db27ce.chunk.js",
+    "static/js/main.e51500b8.chunk.js"
   ]
 }
