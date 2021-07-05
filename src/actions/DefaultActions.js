@@ -1,7 +1,7 @@
-import {SET_HISTORY_LAT_LONG, SET_LAT_LONG, START_LOADING} from "./types";
+import { SET_HISTORY, SET_HISTORY_LAT_LONG, SET_LAT_LONG } from "./types";
 
-export const history = (dispatch) => {
-  dispatch({ type: START_LOADING });
+export const setHistory = (data) => (dispatch) => {
+  dispatch({ type: SET_HISTORY, payload: { data } });
 }
 
 export const setLatLong = (data) => (dispatch) => {

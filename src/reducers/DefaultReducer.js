@@ -1,4 +1,5 @@
 import {
+  SET_HISTORY,
   SET_HISTORY_LAT_LONG,
   SET_LAT_LONG,
   START_LOADING,
@@ -29,9 +30,11 @@ const updateLatLong = (state, {lat, long, data}) => {
 const DefaultReducer = (state = INIT_STATE, { type, payload }) => {
   switch (type) {
     case START_LOADING:
-      return { loading: true };
+      return { ...state, loading: true };
     case STOP_LOADING:
-      return { loading: false };
+      return { ...state, loading: false };
+    case SET_HISTORY:
+      return { ...state, history: [ {...payload.data}, ...state.history]}
     case SET_LAT_LONG:
       return updateLatLong(state, payload)
     case SET_HISTORY_LAT_LONG:

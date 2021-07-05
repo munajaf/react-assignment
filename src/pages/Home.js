@@ -1,8 +1,8 @@
 import React from 'react';
-import {Container, makeStyles} from "@material-ui/core";
+import { Container, makeStyles } from "@material-ui/core";
 import Autocomplete from "react-google-autocomplete";
 import { useDispatch, useSelector } from "react-redux";
-import { setLatLong } from "../actions/DefaultActions";
+import { setHistory, setLatLong } from "../actions/DefaultActions";
 import Map from "../components/Map";
 import Header from "../components/Header";
 
@@ -26,8 +26,9 @@ const Home = () => {
         className={classes.autocomplete}
         onPlaceSelected={(data) => {
           if (data.geometry) {
-            dispatch(setLatLong(data))
+            return dispatch(setLatLong(data))
           }
+          return dispatch(setHistory(data));
         }}
         debounce={10000}
         options={{

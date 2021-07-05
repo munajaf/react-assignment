@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2),
     margin: theme.spacing(1),
     textAlign: 'center',
-    color: theme.palette.text.secondary,
+    color: 'rgb(0 0 0 / 57%)',
     cursor: 'pointer'
   },
 }));
@@ -45,10 +45,20 @@ const History = () => {
             {history.map((data, k) => (
                 <Paper
                   className={classes.paper}
+                  style={(() => {
+                    if (data?.name) {
+                      return { color: 'red', cursor: 'default'}
+                    }
+                    return {}
+                  })()}
                   key={k}
-                  onClick={() => dispatch(setHistoryLatLong(data))}
+                  onClick={() => {
+                    if (data?.formatted_address) {
+                      return dispatch(setHistoryLatLong(data));
+                    }
+                  }}
                 >
-                  {data?.formatted_address}
+                  {data?.formatted_address || data?.name}
                 </Paper>
               )
             )}

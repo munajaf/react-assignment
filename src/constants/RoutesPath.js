@@ -1,7 +1,7 @@
 const PATH = {
-  HOME: '/home',
-  DEFAULT: '/',
-  HISTORY: '/history'
+  HOME: '/react-assignment/home',
+  DEFAULT: '/react-assignment/',
+  HISTORY: '/react-assignment/history'
 }
 
 export default PATH;
